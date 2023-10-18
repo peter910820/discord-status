@@ -1,6 +1,7 @@
 from pypresence import Presence
-import json, os
-import time
+import json, os, time
+import toga
+from toga.style.pack import *
 
 print([file_name for file_name in os.listdir("./config")])
 
