@@ -1,0 +1,23 @@
+body{
+    margin: 10px;
+    background-image: url("https://ga.sbcr.jp/sp/hikikomari/img/gallery_img01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.input_block{
+    margin: 5px;
+}
+.btn{
+    font-size: 12px;
+    padding: 5px 10px;
+}
