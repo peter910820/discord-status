@@ -4,7 +4,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
 }
 .mask {
     position: absolute;
@@ -21,3 +20,26 @@ body{
     font-size: 12px;
     padding: 5px 10px;
 }
+
+.input-field input[type=text] {
+    color: white;
+}
+/* label color */
+.input-field label {
+    color: white !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    font-weight: bold !important;
+    color: rgb(4, 209, 246) !important;
+}
+ /* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(4, 209, 246) !important;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 1px 0 0 yellow;
+  }

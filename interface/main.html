@@ -5,7 +5,14 @@
     <title>discord_status</title>
     <meta charset="utf-8">
     <link rel="icon" href="https://www.webwise.ie/wp-content/uploads/2019/11/Discord512512-1.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/8f1caa7fe1.js" crossorigin="anonymous"></script>
+
+    <!-- materialize Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
     <link href="./main.css" rel="stylesheet">
     <script type="text/javascript" src="/eel.js"></script>   <!-- eel.js 這個是必需的  -->
 </head>
@@ -14,38 +21,47 @@
     <div class="mask">
         <div class="container">
             <div class="row center">
-                <div class="col-6">
-                    <div class="input_block">
-                        <a>client_id: </a>
-                        <input id="client_id" type="text" placeholder="client_id" aria-label="client_id">
+                <div class="col s6">
+                    <div class="input-field col s12">
+                        <input id="client_id" type="text" class="validate">
+                        <label for="client_id">client_id</label>
                     </div>
-                    <div class="input_block">
-                        <a>details: </a>
-                        <input id="details" type="text" placeholder="details" aria-label="details">
+                    <div class="input-field col s12">
+                        <input id="details" type="text" class="validate">
+                        <label for="details">details</label>
                     </div>
-                    <div class="input_block">
-                        <a>state: </a>
-                        <input id="state" type="text" placeholder="state" aria-label="state">
+                    <div class="input-field col s12">
+                        <input id="state" type="text" class="validate">
+                        <label for="state">state</label>
                     </div>
-                    <div class="input_block">
-                        <a>img_url: </a>
-                        <input id="img_url" type="text" placeholder="https://" aria-label="https://">
+                    <div class="input-field col s12">
+                        <input id="img_url" type="text" class="validate">
+                        <label for="img_url">img_url</label>
                     </div>
-                    <button class="btn btn-primary btn-sm" onclick="update()">update</button>
+                    <div class="input-field col s12">
+                        <input id="little_img" type="text" class="validate">
+                        <label for="little_img">little_img</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <a class="btn-floating btn-large waves-effect waves-light green" onclick="update()"><i class="fa-solid fa-arrows-rotate fa-spin"></i></a>
+                    </div>
                     <p class="button1_return"></p>
                 </div>
-                <div class="col-6">
+                <div class="col s6">
                     <div class="input_block">
                         <button class="btn btn-primary btn-sm" onclick="connect()">connect</button>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="fa-solid fa-arrows-rotate fa-spin"></i>
+                        </button>
                         <button class="btn btn-primary btn-sm" onclick="disconnect()">disconnect</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script type="text/javascript" src="./main.js"></script> <!-- 你的JS檔案  -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

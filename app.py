@@ -10,12 +10,13 @@ def connect_rpc(client_id):
     RPC.connect()
     
 @eel.expose
-def update(client_id, state, img_url):    
+def update(details, state, img_url, little_img):    
 
      RPC.update(
             state= state,
+            details= details,
             large_image= img_url,
-            # small_image= data["IMG_NAME"],
+            small_image= little_img,
             start = int(time.time())
         )
 
