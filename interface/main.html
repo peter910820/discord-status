@@ -4,7 +4,7 @@
 <head>
     <title>discord_status</title>
     <meta charset="utf-8">
-    <link rel="icon" href="https://www.webwise.ie/wp-content/uploads/2019/11/Discord512512-1.jpg">
+    <link rel="icon" href="https://banner2.cleanpng.com/20180624/ypc/kisspng-discord-computer-icons-logo-user-internet-bot-discord-icon-5b3058973c0858.6115264115298950632459.jpg">
 
     <script src="https://kit.fontawesome.com/8f1caa7fe1.js" crossorigin="anonymous"></script>
 
@@ -27,33 +27,30 @@
                         <label for="client_id">client_id</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="details" type="text" class="validate">
+                        <input id="details" type="text" class="validate" disabled>
                         <label for="details">details</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="state" type="text" class="validate">
+                        <input id="state" type="text" class="validate" disabled>
                         <label for="state">state</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="img_url" type="text" class="validate">
+                        <input id="img_url" type="text" class="validate" disabled>
                         <label for="img_url">img_url</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="little_img" type="text" class="validate">
+                        <input id="little_img" type="text" class="validate" disabled>
                         <label for="little_img">little_img</label>
                     </div>
                     <div class="input-field col s12">
-                        <a class="btn-floating btn-large waves-effect waves-light green" onclick="update()"><i class="fa-solid fa-arrows-rotate fa-spin"></i></a>
+                        <a class="btn-floating btn-large waves-effect waves-light black" onclick="update()"><i class="fa-solid fa-arrows-rotate fa-spin"></i></a>
                     </div>
                     <p class="button1_return"></p>
                 </div>
                 <div class="col s6">
                     <div class="input_block">
-                        <button class="btn btn-primary btn-sm" onclick="connect()">connect</button>
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                            <i class="fa-solid fa-arrows-rotate fa-spin"></i>
-                        </button>
-                        <button class="btn btn-primary btn-sm" onclick="disconnect()">disconnect</button>
+                        <a class="waves-effect waves-light btn-flat" id ="connect_button" onclick="connect()">CONNECT</a>
+                        <a class="waves-effect waves-light btn-flat disabled" id ="disconnect_button" onclick="disconnect()">DISCONNECT</a>
                     </div>
                 </div>
             </div>
