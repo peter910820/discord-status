@@ -28,7 +28,6 @@ def update(deliver):
                 deliver["little_img"] = discord_img
     try:
         print(deliver)
-        print(type(deliver))
         RPC.update(
                 state= deliver["state"],
                 details= deliver["details"],
