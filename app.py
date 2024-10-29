@@ -1,4 +1,4 @@
-import eel, time, asyncio
+import eel, time
 from pypresence import Presence
 
 RPC = None
