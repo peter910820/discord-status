@@ -1,4 +1,6 @@
-import eel, time
+import eel
+import time
+
 from pypresence import Presence
 
 RPC = None
