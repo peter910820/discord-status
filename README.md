@@ -1,26 +1,48 @@
-# discord-status
+<h1 align="center">discord-status: change your rich presence</h1>
+<p>
+  <a href="https://www.npmjs.com/package/discord-status" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/discord-status.svg">
+  </a>
+  <a href="https://github.com/peter910820/discord-status/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/seaotterMS" target="_blank">
+    <img alt="Twitter: seaotterMS" src="https://img.shields.io/twitter/follow/seaotterMS.svg?style=social" />
+  </a>
+</p>
 
-## 更改Discord狀態小程式
+> Use discord rpc to change your rich presence 
+## :gear: How to use 
+  1. download the release and unzip
+  2. go to [discord developer](https://discord.com/developers/applications) register an application.
+  ![01](./md-img/01.png)
+  3. fill into "client_id" field and press **CONNECT** button.
+  ![02](./md-img/02.png)
+  4. Fill in other information and press circle button. img can only fill in **.jpg**, **.png** or **.gif** of https. 
+  5. If you want to update, just press the circle button.
+  6. To close application, please remember to press **DISCONNECT** button first. 
 
-## 使用方法:
+## :star: Achievements 
+![03](./md-img/03.png)
+## :bust_in_silhouette: Author 
+:orange_heart:  **SeaotterMS** 
+* Twitter: [@seaotterMS](https://twitter.com/seaotterMS)
+* Github: [@peter910820](https://github.com/peter910820) 
 
-1. 下載壓縮檔，下載完解壓縮，啟動discord-status.exe
+## :scroll: TODO 
+* Add recommended GIFs and display images. 
 
-2. 到discord developer註冊一個application，複製APPLICATION ID後填入client_id
+## 🤝 Contributing 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/peter910820/discord-status/issues). 
 
-![img](./md-img/1.png)
+## Show your support
 
-3. 按下CONNECT後填入其他資訊，兩個img只能填入https的.jpg .png或.gif(圖片不填會跑預設的discord圖示)，之後點擊下方按紐
-![img](./md-img/2.png)
+Give a ⭐️ if this project helped you!
 
-4. 更新直接按下方按鈕就好，關閉請記得先按DISCONNECT
+## 📝 License
 
-### ps.
-* 註冊application的名字會成為你個人狀態最上面那一行
+Copyright © 2024 [SeaotterMS](https://github.com/peter910820).<br />
+This project is [MIT](https://github.com/peter910820/discord-status/blob/main/LICENSE) licensed.
 
-
-### TODO
-* 在連線模式中，將client_id表格鎖定。
-* 增加button實作邏輯。
-* 加入爬蟲功能(推薦GIF)。
-* 顯示圖片。
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
