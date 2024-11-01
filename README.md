@@ -22,6 +22,20 @@
   5. If you want to update, just press the circle button.
   6. To close application, please remember to press **DISCONNECT** button first. 
 
+## :wrench: Build 
+1. clone this repositories 
+```bash
+git clone https://github.com/peter910820/discord-status.git
+``` 
+2. download python and install package 
+```bash
+pip install -r requirements.txt
+``` 
+3. execution **app.py** 
+```bash
+python app.py
+``` 
+
 ## :star: Achievements 
 ![03](./md-img/03.png)
 ## :bust_in_silhouette: Author 
