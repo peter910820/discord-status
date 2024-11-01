@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>discord_status</title>
-    <meta charset="utf-8">
-    <link rel="icon" href="https://banner2.cleanpng.com/20180624/ypc/kisspng-discord-computer-icons-logo-user-internet-bot-discord-icon-5b3058973c0858.6115264115298950632459.jpg">
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://banner2.cleanpng.com/20180624/ypc/kisspng-discord-computer-icons-logo-user-internet-bot-discord-icon-5b3058973c0858.6115264115298950632459.jpg"
+    />
 
-    <script src="https://kit.fontawesome.com/8f1caa7fe1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8f1caa7fe1.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- materialize Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
-    <link href="./main.css" rel="stylesheet">
-    <script type="text/javascript" src="/eel.js"></script>   <!-- eel.js 這個是必需的  -->
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
-<body>
+    <link href="./main.css" rel="stylesheet" />
+    <script type="text/javascript" src="/eel.js"></script>
+    <!-- eel.js -->
+  </head>
+
+  <body>
     <div class="mask">
-        <div class="container">
-            <div class="row center">
-                <div class="col s6">
-                    <div class="input-field col s12">
-                        <input id="client_id" type="text" class="validate">
-                        <label for="client_id">client_id</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="details" type="text" class="validate" disabled>
-                        <label for="details">details</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="state" type="text" class="validate" disabled>
-                        <label for="state">state</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="img_url" type="text" class="validate" disabled>
-                        <label for="img_url">img_url</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <input id="little_img" type="text" class="validate" disabled>
-                        <label for="little_img">little_img</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <a class="btn-floating btn-large waves-effect waves-light black" onclick="update()"><i class="fa-solid fa-arrows-rotate fa-spin"></i></a>
-                    </div>
-                    <p class="button1_return"></p>
-                </div>
-                <div class="col s6">
-                    <div class="input_block">
-                        <a class="waves-effect waves-light btn-flat" id ="connect_button" onclick="connect()">CONNECT</a>
-                        <a class="waves-effect waves-light btn-flat disabled" id ="disconnect_button" onclick="disconnect()">DISCONNECT</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row center">
+          <div class="col s6">
+            <div class="input-field col s12">
+              <input id="client_id" type="text" class="validate" />
+              <label for="client_id">client_id</label>
             </div>
+            <div class="input-field col s12">
+              <input id="details" type="text" class="validate" disabled />
+              <label for="details">details</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="state" type="text" class="validate" disabled />
+              <label for="state">state</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="img_url" type="text" class="validate" disabled />
+              <label for="img_url">img_url</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="little_img" type="text" class="validate" disabled />
+              <label for="little_img">little_img</label>
+            </div>
+            <div class="input-field col s12">
+              <a
+                class="btn-floating btn-large waves-effect waves-light black"
+                onclick="update()"
+                ><i class="fa-solid fa-arrows-rotate fa-spin"></i
+              ></a>
+            </div>
+            <p class="button1_return"></p>
+          </div>
+          <div class="col s6">
+            <div class="input_block">
+              <a
+                class="waves-effect waves-light btn-flat"
+                id="connect_button"
+                onclick="connect()"
+                >CONNECT</a
+              >
+              <a
+                class="waves-effect waves-light btn-flat disabled"
+                id="disconnect_button"
+                onclick="disconnect()"
+                >DISCONNECT</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script type="text/javascript" src="./main.js"></script> <!-- 你的JS檔案  -->
-</body>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
 </html>
