@@ -1,8 +1,5 @@
 <h1 align="center">discord-status: change your rich presence</h1>
 <p>
-  <a href="https://www.npmjs.com/package/discord-status" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/discord-status.svg">
-  </a>
   <a href="https://github.com/peter910820/discord-status/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
