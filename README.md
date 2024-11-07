@@ -12,9 +12,9 @@
 ## :gear: How to use 
   1. download the release and unzip
   2. go to [discord developer](https://discord.com/developers/applications) register an application.
-  ![01](./md-img/01.png)
+  ![01](./src/img/01.png)
   3. fill into "client_id" field and press **CONNECT** button.
-  ![02](./md-img/02.png)
+  ![02](./src/img/02.png)
   4. Fill in other information and press circle button. img can only fill in **.jpg**, **.png** or **.gif** of https. 
   5. If you want to update, just press the circle button.
   6. To close application, please remember to press **DISCONNECT** button first. 
@@ -34,7 +34,7 @@ python app.py
 ``` 
 
 ## :star: Achievements 
-![03](./md-img/03.png)
+![03](./src/img/03.png)
 ## :bust_in_silhouette: Author 
 :orange_heart:  **SeaotterMS** 
 * Twitter: [@seaotterMS](https://twitter.com/seaotterMS)
