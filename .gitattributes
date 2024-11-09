@@ -1,1 +1,1 @@
-interface/*.html linguist-vendored
+*.html linguist-language=Python
